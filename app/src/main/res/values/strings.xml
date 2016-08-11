@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">VIT Grievance Portal</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_signout">Sign Out!!</string>
+    <string name="title_activity_signin">Signin</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_listview">Listview</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="PREF_FILE">APP_PREF_FILE</string>
+    <string name="USERNAME">Username</string>
+
+    <string-array name="hostel">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>P</item>
+    </string-array>
+
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Departments</string>
+    <string name="title_section3">About</string>
+    <string name="title_section4">Contact Us</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="title_activity_jhvb">jhvb</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="title_activity_fragment1">Fragment1</string>
+</resources>
