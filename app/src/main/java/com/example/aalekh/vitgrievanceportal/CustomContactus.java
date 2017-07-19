@@ -38,10 +38,10 @@ public class CustomContactus extends ArrayAdapter<String> {
         TextView textemail=(TextView)rowView.findViewById(R.id.text_email);
         TextView textphone=(TextView)rowView.findViewById(R.id.text_phone);
 
-        imageView.setImageResource(photo[position]);
-        textname.setText(name[position]);
-        textemail.setText(email[position]);
-        textphone.setText(phone[position]);
+        imageView.setImageResource(photo[0]);
+        textname.setText(name[0]);
+        textemail.setText(email[0]);
+        textphone.setText(phone[0]);
         return rowView;
     }
 }

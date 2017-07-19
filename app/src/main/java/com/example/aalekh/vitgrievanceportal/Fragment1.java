@@ -92,10 +92,13 @@ public class Fragment1 extends Fragment{
         @Override
         protected void onPostExecute(String result) {
             Log.d("result", result);
+            int i=0;
 
             try {
-                jsonObject = new JSONObject(result);
-                jsonArray = jsonObject.getJSONArray("server_response");
+                //jsonObject = new JSONObject(result);
+                jsonArray = new JSONArray(result);
+                //jsonArray = jsonObject.getJSONArray("server_response");
+                //jsonObject = jsonArray.getJSONObject(i++);
                 int count=0;
                 int length = jsonArray.length();
                 String[] uname=new String[length];
@@ -109,6 +112,7 @@ public class Fragment1 extends Fragment{
                     desc[count] = "Description: "+JO.getString("desc");
                     subject[count] = "Subject: "+JO.getString("subject");
                     dept[count] = "Concerned department: "+JO.getString("dept");
+                    Log.d("uname",uname[count]);
                     count++;
                 }
 

@@ -122,6 +122,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
                 bufferedReader.close();
                 inputStream.close();
                 httpURLConnection.disconnect();
+                Log.d("response from script",response);
                 return response;
 
 
@@ -203,7 +204,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
                 //activity.startActivity(new Intent(activity,Homepage.class));
                 Intent intent = new Intent();
                 intent.setClass(activity,Homepage.class);
-                intent.putExtra("username",username);
+                intent.putExtra("username", username);
                 activity.startActivity(intent);
             }
         }

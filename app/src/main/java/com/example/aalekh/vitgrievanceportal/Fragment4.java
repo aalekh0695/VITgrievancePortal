@@ -10,10 +10,10 @@ import android.widget.ListView;
 
 public class Fragment4 extends Fragment{
     private ListView listView;
-    private String[] name={"Aalekh Srivastava","Deepanshu Dixit"};
-    private String[] email={"aalekh.srivastava2013@vit.ac.in","deepanshu.dixit2013@vit.ac.in"};
-    private String[] phone={"+919585389485","+919789725148"};
-    private Integer[] photo={R.drawable.crop1,R.drawable.crop2};
+    private String[] name={"AALEKH SRIVASTAVA"};
+    private String[] email={"aalekh.srivastava2013@vit.ac.in"};
+    private String[] phone={"+919585389485"};
+    private Integer[] photo={R.drawable.crop1};
     View rootView;
     @Nullable
     @Override
